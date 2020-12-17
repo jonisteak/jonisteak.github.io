@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/joni_steak.png" type="image/png">
+  <title>JONISTEAK | Good Food With Affordable Prices</title>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/joni_steak.png" alt="Logo" width="150px">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="#comboSpecial">Combo Special</a></li>
+            <li><a href="#foods">Foods</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#footer">Contact Info</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" alt="Menu" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Good food with<br>affordable prices</h1>
+          <p>Enjoy the pleasure of our good meals, and of course,
+            with affordable prices
+          </p>
+          <a href="#menus" class="btn">Explore our menu</a>
+        </div>
+        <div class="col-2">
+          <img src="images/Sirloin Steak.png" alt="Banner Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Header -->
+
+  <!-- Products -->
+  <div class="small-container">
+    <h1 class="menu-title" id="menus">Menu</h1>
+  </div>
+  <div class="small-container">
+    <h2 class="title" id="comboSpecial">Combo Special</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/rib eye.png">
+        <h4>Rib Eye + Lemon Tea</h4>
+        <p><span>80K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Sirloin Steak.png">
+        <h4>Sirloin + Blackcurrant + Cream Brulee</h4>
+        <p><span>95K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Sirloin Steak.png">
+        <h4>Sirloin + Blackcurrant</h4>
+        <p><span>85K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Wagyu Top side.png">
+        <h4>Wagyu Top Side + Sameruff Coffee</h4>
+        <p><span>92K</span> 160gr</p>
+      </div>
+    </div>
+    <h2 class="title" id="foods">Beef</h2>
+    <h5>All beef is served with potato wedges or mashed potato + vegetables + sauce (black pepper / mushroom)</h5>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/rib eye.png">
+        <h4>Rib Eye</h4>
+        <p><span>45K</span> 100gr | <span>70K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Tenderloin Steak.png">
+        <h4>Tenderloin Steak</h4>
+        <p><span>80K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Sirloin Steak.png">
+        <h4>Sirloin Steak</h4>
+        <p><span>48K</span> 100gr | <span>75K</span> 200gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/Wagyu Top side.png">
+        <h4>Wagyu Top Side</h4>
+        <p><span>75K</span> 160gr</p>
+      </div>
+      <div class="col-4">
+        <img src="images/secondary cut wagyu.png">
+        <h4>Secondary Cut Wagyu</h4>
+        <p><span>55K</span> 100gr | <span>95K</span> 200gr</p>
+      </div>
+    </div>
+    <h2 class="title">Chicken</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/CHIKEN MOZALERA.png">
+        <h4>Chicken Mozarella</h4>
+        <p>Served with potato wedges or mashed potato + vegetables</p>
+        <p><span>50K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/Chicken Gordon Blue.png">
+        <h4>Chicken Cordon Blue</h4>
+        <p>Served with potato wedges or mashed potato +
+          vegetables + BBQ sauce</p>
+        <p><span>50K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/dada ayam cah toge.png">
+        <h4>Ayam Cah Toge</h4>
+        <p>Normal | Diet 200gr</p>
+        <p><span>44K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/Chicken steak fillet.png">
+        <h4>Chicken Steak Fillet</h4>
+        <p>Served with potato wedges or mashed potato +
+          vegetables + sauce (black paper / mushroom)</p>
+        <p><span>45K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/Chicken Schnitzel.png">
+        <h4>Chicken Schnitzel</h4>
+        <p>Served with potato wedges or mashed potato +
+          vegetables + sauce (black paper / mushroom)</p>
+        <p><span>40K</span></p>
+      </div>
+    </div>
+    <h2 class="title">Seafood</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/salmon steak.png">
+        <h4>Grilled Salmon Steak</h4>
+        <p>160gr</p>
+        <p>Served with potato wedges + salad</p>
+        <p><span>80K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/fish and chips.png">
+        <h4>Fish n' Chips</h4>
+        <p>Served with potato wedges + salad</p>
+        <p><span>42K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/prawn cutlet.png">
+        <h4>Prawn Cutlet</h4>
+        <p>Served with potato wedges + salad</p>
+        <p><span>38K</span></p>
+      </div>
+    </div>
+    <h2 class="title">Pasta</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/DSC01515.png">
+        <h4>Spaghetti Chicken Pesto</h4>
+        <p>Served with pesto sauce + cheese</p>
+        <p><span>45K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/spaggeti bolognaise.png">
+        <h4>Spaghetti Bolognaise</h4>
+        <p>Served with bolognaise sauce + cheese</p>
+        <p><span>35K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/spagetti.png">
+        <h4>Diet Spaghetti</h4>
+        <p>Served with white egg + oregano + tomato</p>
+        <p><span>32K</span></p>
+      </div>
+    </div>
+    <h2 class="title">Pizza</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/pizza.png">
+        <h4>Pizza (Family Size)</h4>
+        <p>Beef or Chicken</p>
+        <p><span>125K</span></p>
+      </div>
+      <div class="col-4">
+        <img src="images/pizza.png">
+        <h4>Pizza (Reguler Size)</h4>
+        <p>Beef or Chicken</p>
+        <p><span>85K</span></p>
+      </div>
+    </div>
+    <div id="fh5co-menus" data-section="menu">
+			<div class="container">
+				<div class="row row-padded">
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="title">Side Dish</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Mashed Potato or Ubi</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										18K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Special Mashed Potato or Ubi</h3>
+                      <p>(Black Pepper / Mushroom + Cheese)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										25K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>French Fries</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										20K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Potato Wedges</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										18K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Mix Salad</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										25K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Mix Vegetables</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										12K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Garlic Bread</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Pesto Bread</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										12K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Nasi Putih</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										9K
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="title">Dessert</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Crème Brûlée</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										12K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Banana Split</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										25K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Scoop Ice Cream</h3>
+                      <p>(Chocolate, Vanilla or Strawberry)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Fruit Cocktail</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										20K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Aneka Puding</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="title">Extras</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Black Pepper</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										6K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Mushroom</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										6K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>BBQ Sauce or Garlic Sauce</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										6K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Bolognaise Sauce</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										12K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Extra Cheese</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+								</li>
+							</ul>
+						</div>
+          </div>
+          <div class="col-md-6">
+						<div class="fh5co-food-menu to-animate-2">
+							<h2 class="title" id="drinks">Beverages</h2>
+							<ul>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Soft Drinks</h3>
+                      <p>(Coca-Cola, Fanta, Sprite)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										12K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Teh Botol</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Mineral Water Bottle</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+								</li>
+								<li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Ice Lemon Squash</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										16K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+											<h3>Ice Blackcurrant</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										16K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Milkshake</h3>
+                      <p>(Chocolate, Vanilla or Strawberry)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										29K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Aneka Juice</h3>
+                      <p>(Jambu, Mangga, Sirsak, Strawberry)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										22K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Orange Juice</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										22K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Fresh Lime Juice</h3>
+                      <p>100% Vit C & Antioksidan</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										25K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Fresh Lemon Juice</h3>
+                      <p>100% Vit C & Antioksidan</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										25K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Tebu Juice Original</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										17K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Tebu Lemon Juice</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										17K
+									</div>
+                </li>
+                <li style="margin-top: 40px;">
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3 style="font-weight: bold;">HOT or COLD</h3>
+										</div>
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Teh Tawar (Plain Tea)</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										7K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Teh Manis (Sweet Tea)</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										10K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Teh Tarik</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										16K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Lemon Tea</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										16K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Moccacino or Nescafe</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										17K
+									</div>
+                </li>
+                <li style="margin-top: 40px;">
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3 style="font-weight: bold;">SPECIALS</h3>
+										</div>
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Kietna Healthy Drink</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										18K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Sameruf Coffee</h3>
+                      <p>(Hazelnut, Brown Sugar, Vanilla)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										17K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Ice Coffee Jelly</h3>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										20K
+									</div>
+                </li>
+                <li>
+									<div class="fh5co-food-desc">
+										<div>
+                      <h3>Kelapa Markisah</h3>
+                      <p>(Coconut & Passion Fruit)</p>
+										</div>
+                  </div>
+                  <div class="fh5co-food-pricing">
+										29K
+									</div>
+                </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  <!-- End of Products -->
+
+  <!-- Footer -->
+  <div class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <img src="images/joni_steak.png">
+          <p>Good Meal With Affordable Prices
+          </p>
+        </div>
+        <div class="footer-col-2">
+          <div class="outlet-1">
+            <h3>Pasar Baru</h3>
+            <ul>
+              <li>Jl. H. Samanhudi No. 65</li>
+              <li>Pasar Baru, Jakarta Pusat</li>
+              <li>(021) 3483 2438</li>
+              <li>wa. 0812 9188 5418</li>
+            </ul>
+          </div>
+          <div class="outlet-2">
+            <h3>Kelapa Gading</h3>
+            <ul>
+              <li>Jl. Boulevard Raya Blok WB2 No.1</li>
+              <li>Kelapa Gading - Jakarta Utara</li>
+              <li>(021) 22457784</li>
+              <li>wa. 0812 9188 5411</li>
+            </ul>
+          </div>
+          <div class="outlet-3">
+            <h3>Gajah Mada</h3>
+            <ul>
+              <li>Jl. Gajah Mada Raya No. 192-193</li>
+              <li>Gajah Mada, Jakarta Pusat</li>
+              <li>(021) 632 2811 - (021) 632 2812</li>
+              <li>wa. 0812 9188 5419</li>
+            </ul>
+          </div>
+          <div class="outlet-4">
+            <h3>Bekasi</h3>
+            <ul>
+              <li>Jl Ruko Boulevard Hijau Blok B8/39,</li>
+              <li>Harapan Indah, Medan Satria</li>
+              <li>Bekasi, Jawa Barat</li>
+              <li>(021) 88887343</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col-3">
+          <h3><i class="fa fa-building"></i> Office</h3>
+          <ul>
+            <li>Jl. Krekot Bunder XI No. 2 RT 008/006</li>
+            <li>Pasar Baru, Jakarta Pusat</li>
+            <li>management@jonisteak.co.id</li>
+            <li>(021) 2120 1943</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3><i class="fa fa-users"></i> Follow us</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/jonisteakid/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/jonisteak_resto/"><i class="fa fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">&copy; Copyright 2020 - JONISTEAK</p>
+    </div>
+  </div>
+  <!-- End of Footer -->
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
